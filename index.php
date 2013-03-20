@@ -1,5 +1,7 @@
 <?php
 
-require('libs/oddMVC_init.php');
+require('libs/OddCore.php');
+require('libs/OddController.php');
+require('libs/OddView.php');
 
-$app = new oddMVC_init();
+$app = new OddCore();
