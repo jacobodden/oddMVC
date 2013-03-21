@@ -3,6 +3,6 @@
 class Help extends OddController {
 	function __construct() {
 		parent::__construct();
-		echo 'We are in the help controller<br />';
+		$this->view->render('help');
 	}
 }

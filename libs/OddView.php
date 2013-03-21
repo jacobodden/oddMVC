@@ -2,6 +2,11 @@
 
 class OddView {
 	function __construct() {
-		echo 'This is a view<br />';
+	}
+
+	public function render($view) {
+		require('views/header.php');
+		require('views/'.$view.'.view.php');
+		require('views/footer.php');
 	}
 }
