@@ -4,8 +4,7 @@ TODO: oddMVC
 August 11, 2013
 ----------
 
-What to do:
-##########
+### What to do:
 
 Want to pick this back up again to continue development.
 
